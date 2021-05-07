@@ -20,13 +20,13 @@ var request2 = unirest("GET","https://api-nba-v1.p.rapidapi.com/teams/confName/e
 
 var nbaTeams = [];
 request.headers({
-    "x-rapidapi-key": "f420921f0dmshce42c87198e50f7p15bb3djsn701415939c6d",
+    "x-rapidapi-key": "",
 	"x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
 	"useQueryString": true
 });
 
 request2.headers({
-    "x-rapidapi-key": "f420921f0dmshce42c87198e50f7p15bb3djsn701415939c6d",
+    "x-rapidapi-key": "",
 	"x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
 	"useQueryString": true
 });
